@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: ba7307d533aefc55a3688f09d525a5b5788cc149b42ccd86eaea747460e531d5
+-- hash: 31e508f1d30c8ac4553eda2eaa4e4359060c38f841e2b02168bb4b99d5df1017
 
 name:           ArithmeticTree
 version:        0.1.0.0
@@ -58,5 +58,6 @@ test-suite ArithmeticTree-test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       ArithmeticTree
+    , HUnit
     , base >=4.7 && <5
   default-language: Haskell2010
